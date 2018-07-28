@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "$(npm bin)/babel --out-dir built src"
+    "build": "$(npm bin)/babel --out-dir built src",
+    "start": "$(npm bin)/babel-node src/index.js"
   },
   "author": "",
   "license": "ISC",
