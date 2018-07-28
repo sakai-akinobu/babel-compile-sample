@@ -1,5 +1,5 @@
 // @flow
-function foo(bar: number): string {
+function foo(bar: number): number {
   return bar * 2;
 }
 
